@@ -19,7 +19,7 @@ provider "helm" {
     }
   }
 }
-resource "kubernetes_namespace" "example" {
+resource "kubernetes_namespace" "microservices" {
   metadata {
     name = "argo"
   }
