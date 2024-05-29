@@ -26,7 +26,7 @@ resource "kubernetes_namespace" "example" {
 }
 
 resource "helm_release" "argocd" {
-  name       = "msur"
+  name       = "up-and-running-book"
   chart      = "argo-cd"
   repository = "https://argoproj.github.io/argo-helm"
   namespace  = "argo"
